@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/klas_chess.dir/link.d CMakeFiles/klas_chess.dir/main.cpp.o -o klas_chess
