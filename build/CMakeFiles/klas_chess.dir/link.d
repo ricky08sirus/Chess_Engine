@@ -3,6 +3,9 @@ klas_chess: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
   CMakeFiles/klas_chess.dir/main.cpp.o \
+  CMakeFiles/klas_chess.dir/search/search.cpp.o \
+  CMakeFiles/klas_chess.dir/search/evaluator.cpp.o \
+  CMakeFiles/klas_chess.dir/search/Board.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libm.so \
@@ -38,6 +41,12 @@ klas_chess: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o:
 
 CMakeFiles/klas_chess.dir/main.cpp.o:
+
+CMakeFiles/klas_chess.dir/search/search.cpp.o:
+
+CMakeFiles/klas_chess.dir/search/evaluator.cpp.o:
+
+CMakeFiles/klas_chess.dir/search/Board.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libstdc++.so:
 
