@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/klas_chess.dir/link.d"
   "CMakeFiles/klas_chess.dir/main.cpp.o"
   "CMakeFiles/klas_chess.dir/main.cpp.o.d"
   "CMakeFiles/klas_chess.dir/search/Board.cpp.o"
