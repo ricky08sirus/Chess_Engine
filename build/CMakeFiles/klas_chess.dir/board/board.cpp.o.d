@@ -1,5 +1,6 @@
-CMakeFiles/klas_chess.dir/main.cpp.o: \
- /home/ricky/Documents/Chess_Engine/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/klas_chess.dir/board/board.cpp.o: \
+ /home/ricky/Documents/Chess_Engine/board/board.cpp \
+ /usr/include/stdc-predef.h \
  /home/ricky/Documents/Chess_Engine/board/board.h \
  /usr/include/c++/13/array /usr/include/c++/13/compare \
  /usr/include/c++/13/initializer_list \
@@ -117,9 +118,9 @@ CMakeFiles/klas_chess.dir/main.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
- /usr/include/c++/13/ios /usr/include/c++/13/exception \
- /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/include/c++/13/bitset /usr/include/c++/13/iostream \
+ /usr/include/c++/13/ostream /usr/include/c++/13/ios \
+ /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
  /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/nested_exception.h \
  /usr/include/c++/13/bits/ios_base.h /usr/include/c++/13/ext/atomicity.h \

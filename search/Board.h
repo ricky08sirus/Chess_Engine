@@ -1,4 +1,4 @@
-# ragma once
+#pragma once
 #include "Move.h"
 #include <vector>
 

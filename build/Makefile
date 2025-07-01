@@ -129,6 +129,30 @@ klas_chess/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/build
 .PHONY : klas_chess/fast
 
+board/board.o: board/board.cpp.o
+.PHONY : board/board.o
+
+# target to build an object file
+board/board.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/board/board.cpp.o
+.PHONY : board/board.cpp.o
+
+board/board.i: board/board.cpp.i
+.PHONY : board/board.i
+
+# target to preprocess a source file
+board/board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/board/board.cpp.i
+.PHONY : board/board.cpp.i
+
+board/board.s: board/board.cpp.s
+.PHONY : board/board.s
+
+# target to generate assembly for a file
+board/board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/board/board.cpp.s
+.PHONY : board/board.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,78 +177,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-search/Board.o: search/Board.cpp.o
-.PHONY : search/Board.o
-
-# target to build an object file
-search/Board.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/search/Board.cpp.o
-.PHONY : search/Board.cpp.o
-
-search/Board.i: search/Board.cpp.i
-.PHONY : search/Board.i
-
-# target to preprocess a source file
-search/Board.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/search/Board.cpp.i
-.PHONY : search/Board.cpp.i
-
-search/Board.s: search/Board.cpp.s
-.PHONY : search/Board.s
-
-# target to generate assembly for a file
-search/Board.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/search/Board.cpp.s
-.PHONY : search/Board.cpp.s
-
-search/evaluator.o: search/evaluator.cpp.o
-.PHONY : search/evaluator.o
-
-# target to build an object file
-search/evaluator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/search/evaluator.cpp.o
-.PHONY : search/evaluator.cpp.o
-
-search/evaluator.i: search/evaluator.cpp.i
-.PHONY : search/evaluator.i
-
-# target to preprocess a source file
-search/evaluator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/search/evaluator.cpp.i
-.PHONY : search/evaluator.cpp.i
-
-search/evaluator.s: search/evaluator.cpp.s
-.PHONY : search/evaluator.s
-
-# target to generate assembly for a file
-search/evaluator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/search/evaluator.cpp.s
-.PHONY : search/evaluator.cpp.s
-
-search/search.o: search/search.cpp.o
-.PHONY : search/search.o
-
-# target to build an object file
-search/search.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/search/search.cpp.o
-.PHONY : search/search.cpp.o
-
-search/search.i: search/search.cpp.i
-.PHONY : search/search.i
-
-# target to preprocess a source file
-search/search.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/search/search.cpp.i
-.PHONY : search/search.cpp.i
-
-search/search.s: search/search.cpp.s
-.PHONY : search/search.s
-
-# target to generate assembly for a file
-search/search.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klas_chess.dir/build.make CMakeFiles/klas_chess.dir/search/search.cpp.s
-.PHONY : search/search.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -234,18 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... klas_chess"
+	@echo "... board/board.o"
+	@echo "... board/board.i"
+	@echo "... board/board.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... search/Board.o"
-	@echo "... search/Board.i"
-	@echo "... search/Board.s"
-	@echo "... search/evaluator.o"
-	@echo "... search/evaluator.i"
-	@echo "... search/evaluator.s"
-	@echo "... search/search.o"
-	@echo "... search/search.i"
-	@echo "... search/search.s"
 .PHONY : help
 
 

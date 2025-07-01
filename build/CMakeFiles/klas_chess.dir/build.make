@@ -83,65 +83,33 @@ CMakeFiles/klas_chess.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/klas_chess.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/Documents/Chess_Engine/main.cpp -o CMakeFiles/klas_chess.dir/main.cpp.s
 
-CMakeFiles/klas_chess.dir/search/search.cpp.o: CMakeFiles/klas_chess.dir/flags.make
-CMakeFiles/klas_chess.dir/search/search.cpp.o: /home/ricky/Documents/Chess_Engine/search/search.cpp
-CMakeFiles/klas_chess.dir/search/search.cpp.o: CMakeFiles/klas_chess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricky/Documents/Chess_Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/klas_chess.dir/search/search.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/klas_chess.dir/search/search.cpp.o -MF CMakeFiles/klas_chess.dir/search/search.cpp.o.d -o CMakeFiles/klas_chess.dir/search/search.cpp.o -c /home/ricky/Documents/Chess_Engine/search/search.cpp
+CMakeFiles/klas_chess.dir/board/board.cpp.o: CMakeFiles/klas_chess.dir/flags.make
+CMakeFiles/klas_chess.dir/board/board.cpp.o: /home/ricky/Documents/Chess_Engine/board/board.cpp
+CMakeFiles/klas_chess.dir/board/board.cpp.o: CMakeFiles/klas_chess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricky/Documents/Chess_Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/klas_chess.dir/board/board.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/klas_chess.dir/board/board.cpp.o -MF CMakeFiles/klas_chess.dir/board/board.cpp.o.d -o CMakeFiles/klas_chess.dir/board/board.cpp.o -c /home/ricky/Documents/Chess_Engine/board/board.cpp
 
-CMakeFiles/klas_chess.dir/search/search.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/klas_chess.dir/search/search.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/Documents/Chess_Engine/search/search.cpp > CMakeFiles/klas_chess.dir/search/search.cpp.i
+CMakeFiles/klas_chess.dir/board/board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/klas_chess.dir/board/board.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/Documents/Chess_Engine/board/board.cpp > CMakeFiles/klas_chess.dir/board/board.cpp.i
 
-CMakeFiles/klas_chess.dir/search/search.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/klas_chess.dir/search/search.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/Documents/Chess_Engine/search/search.cpp -o CMakeFiles/klas_chess.dir/search/search.cpp.s
-
-CMakeFiles/klas_chess.dir/search/evaluator.cpp.o: CMakeFiles/klas_chess.dir/flags.make
-CMakeFiles/klas_chess.dir/search/evaluator.cpp.o: /home/ricky/Documents/Chess_Engine/search/evaluator.cpp
-CMakeFiles/klas_chess.dir/search/evaluator.cpp.o: CMakeFiles/klas_chess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricky/Documents/Chess_Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/klas_chess.dir/search/evaluator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/klas_chess.dir/search/evaluator.cpp.o -MF CMakeFiles/klas_chess.dir/search/evaluator.cpp.o.d -o CMakeFiles/klas_chess.dir/search/evaluator.cpp.o -c /home/ricky/Documents/Chess_Engine/search/evaluator.cpp
-
-CMakeFiles/klas_chess.dir/search/evaluator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/klas_chess.dir/search/evaluator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/Documents/Chess_Engine/search/evaluator.cpp > CMakeFiles/klas_chess.dir/search/evaluator.cpp.i
-
-CMakeFiles/klas_chess.dir/search/evaluator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/klas_chess.dir/search/evaluator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/Documents/Chess_Engine/search/evaluator.cpp -o CMakeFiles/klas_chess.dir/search/evaluator.cpp.s
-
-CMakeFiles/klas_chess.dir/search/Board.cpp.o: CMakeFiles/klas_chess.dir/flags.make
-CMakeFiles/klas_chess.dir/search/Board.cpp.o: /home/ricky/Documents/Chess_Engine/search/Board.cpp
-CMakeFiles/klas_chess.dir/search/Board.cpp.o: CMakeFiles/klas_chess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricky/Documents/Chess_Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/klas_chess.dir/search/Board.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/klas_chess.dir/search/Board.cpp.o -MF CMakeFiles/klas_chess.dir/search/Board.cpp.o.d -o CMakeFiles/klas_chess.dir/search/Board.cpp.o -c /home/ricky/Documents/Chess_Engine/search/Board.cpp
-
-CMakeFiles/klas_chess.dir/search/Board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/klas_chess.dir/search/Board.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/Documents/Chess_Engine/search/Board.cpp > CMakeFiles/klas_chess.dir/search/Board.cpp.i
-
-CMakeFiles/klas_chess.dir/search/Board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/klas_chess.dir/search/Board.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/Documents/Chess_Engine/search/Board.cpp -o CMakeFiles/klas_chess.dir/search/Board.cpp.s
+CMakeFiles/klas_chess.dir/board/board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/klas_chess.dir/board/board.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/Documents/Chess_Engine/board/board.cpp -o CMakeFiles/klas_chess.dir/board/board.cpp.s
 
 # Object files for target klas_chess
 klas_chess_OBJECTS = \
 "CMakeFiles/klas_chess.dir/main.cpp.o" \
-"CMakeFiles/klas_chess.dir/search/search.cpp.o" \
-"CMakeFiles/klas_chess.dir/search/evaluator.cpp.o" \
-"CMakeFiles/klas_chess.dir/search/Board.cpp.o"
+"CMakeFiles/klas_chess.dir/board/board.cpp.o"
 
 # External object files for target klas_chess
 klas_chess_EXTERNAL_OBJECTS =
 
 klas_chess: CMakeFiles/klas_chess.dir/main.cpp.o
-klas_chess: CMakeFiles/klas_chess.dir/search/search.cpp.o
-klas_chess: CMakeFiles/klas_chess.dir/search/evaluator.cpp.o
-klas_chess: CMakeFiles/klas_chess.dir/search/Board.cpp.o
+klas_chess: CMakeFiles/klas_chess.dir/board/board.cpp.o
 klas_chess: CMakeFiles/klas_chess.dir/build.make
 klas_chess: CMakeFiles/klas_chess.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ricky/Documents/Chess_Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable klas_chess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ricky/Documents/Chess_Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable klas_chess"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/klas_chess.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
